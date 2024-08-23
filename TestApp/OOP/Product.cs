@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace TestApp;
+namespace TestApp.OOP;
 
 internal class Product
 {
@@ -10,11 +10,13 @@ internal class Product
     public int Stock { get; set; } = 0;
 
 
-    protected void IncreaseStock() {
+    protected void IncreaseStock()
+    {
         Stock++;
     }
 
-    protected void DecreaseStock() { 
+    protected void DecreaseStock()
+    {
         Stock--;
     }
 
